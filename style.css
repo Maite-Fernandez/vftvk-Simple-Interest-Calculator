@@ -1,4 +1,36 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;}
+div{
+    background-color:white;
+    border-radius: 15px;
+
+}
+h1{
+    font-family: arial;
+    font-weight: bold;
+    color: grey;
+    margin-left: 10%;
+    
+}
+footer{
+    margin-left: 5%;
+}
+.main-frame{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.subframe{
+    margin-left: 20%;
+}
+
+input{
+    margin-left: 10%
+}
+.years{
+    width:40px;
+}
+
 
 

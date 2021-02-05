@@ -4,13 +4,27 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
+        <div class= "main-frame">
+            <br>
+            <h1>Simple Interest Calculator</h1>
+            <div class="subframe">
+                
+                Amount <input type="number" id="amount" name="amount" min="0">  <br/>
+                <br>
+                <form oninput="x.value=parseInt(rate.value)">
+                <label for="rate"> Interest Rate </label>
+                <input type="range" id="rate" name="rate" min="0" max="100">
+                <output name="x" for="rate"></output>%</form>
+                <br/>
+                No. of Years <input type="number" id="years" class="years" min="0">  <br/>
+                <br>
+                Interest : <span id="result"></span><br>
+                <br>
+                <button onclick="compute()">Compute Interest</button>
+                <br><br>
+            </div>
+            <footer>&#169;Everyone Can Get Rich</footer>
+            <br>
+        </div>
     </body>
 </html>
