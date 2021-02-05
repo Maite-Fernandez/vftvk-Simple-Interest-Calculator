@@ -4,12 +4,12 @@ function compute()
     interest = Number(document.getElementById("rate").value);
     years = Number(document.getElementById("years").value);
     //Check if fields are empty
-          if(amount.value<=0){
+          if(amount<=0){
                 alert("Please enter a positive amount");
                 amount.focus();
                 return false;
           }
-          if(years.value<=0){
+          if(years<=0){
                 alert("Please enter a positive number of years");
                 years.focus();
                 return false;
