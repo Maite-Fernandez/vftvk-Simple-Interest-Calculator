@@ -11,14 +11,14 @@
                 
                 Amount <input type="number" id="amount" name="amount" min="0">  <br/>
                 <br>
-                <form oninput="x.value=parseInt(rate.value)">
+                <form oninput="x.value=parseFloat(rate.value)">
                 <label for="rate"> Interest Rate </label>
-                <input type="range" id="rate" name="rate" min="0" max="100">
+                <input type="range" id="rate" name="rate" min="0" max="100" step= "0.5">
                 <output name="x" for="rate"></output>%</form>
                 <br/>
                 No. of Years <input type="number" id="years" class="years" min="0">  <br/>
                 <br>
-                Interest : <span id="result"></span><br>
+                <span id="result"></span><br>
                 <br>
                 <button onclick="compute()">Compute Interest</button>
                 <br><br>
