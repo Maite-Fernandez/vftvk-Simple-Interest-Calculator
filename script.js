@@ -15,8 +15,8 @@ function compute()
                 return false;
           }
     var result = amount*(interest/100)*years;
-    var year = 2020 + years;
-    text = "If you deposit " + amount + ",<br>" + "at an interest rate of " + interest + "%."+ "<br>" + "You will receive an amount of " + Math.round(result) + ",<br>" + "in the year " +  year;
+    var year = 2021 + years;
+    text = "If you deposit <mark>" + amount + "</mark>,<br>" + "at an interest rate of <mark>" + interest + "%.</mark>"+ "<br>" + "You will receive an amount of <mark>" + Math.round(result) + "</mark>,<br>" + "in the year <mark>" +  year + "</mark>";
     document.getElementById("result").innerHTML = text;
     return true;
         

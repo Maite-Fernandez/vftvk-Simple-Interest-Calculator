@@ -1,7 +1,10 @@
 body {background-color:black;}
 div{
     background-color:white;
+    margin-left: 40%;
     border-radius: 15px;
+    height: 450px;
+    width: 400px;
 
 }
 h1{
@@ -11,18 +14,24 @@ h1{
     margin-left: 10%;
     
 }
+.subframe{
+    margin-left:20%;
+    height: 22%;
+    width: 50%;
+}
+
+form{
+    margin-left:20%;
+}
 footer{
     margin-left: 5%;
 }
 .main-frame{
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
 
-}
-.subframe{
-    margin-left: 20%;
 }
 
 input{
